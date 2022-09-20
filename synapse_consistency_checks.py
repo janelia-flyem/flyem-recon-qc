@@ -3,12 +3,6 @@
 import os
 import sys
 import logging
-import json
-import requests
-from tqdm import tqdm_notebook
-tqdm = tqdm_notebook
-import logging
-import numpy as np
 import pandas as pd
 from neuclease.dvid import find_master, fetch_synapses_in_batches, check_synapse_consistency
 from neuclease.util import decode_coords_from_uint64

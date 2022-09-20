@@ -1,15 +1,8 @@
 #!/bin/env
 # ------------------------- imports -------------------------
-import json
+
 import sys
-import os
-import io
-import time
-import numpy as np
-from tqdm import trange
-#from neuclease.dvid import *
 import pandas as pd
-#from requests import HTTPError
 from neuclease.util import compute_parallel, read_csv_col
 from neuclease.dvid import find_master, fetch_sizes, fetch_keys
 

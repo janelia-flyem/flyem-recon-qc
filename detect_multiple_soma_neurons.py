@@ -2,13 +2,6 @@
 
 import os
 import sys
-import logging
-import json
-import requests
-from tqdm import tqdm_notebook
-tqdm = tqdm_notebook
-
-import numpy as np
 import pandas as pd
 from neuclease.dvid import find_master, fetch_elements, fetch_labels_batched
 
